@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Taller Junior </title>
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('Imagenes/inicio 2.jpg','Imagenes/servicios 2.jpg','Imagenes/contacto 2.jpg')">
+<div id="todo ">
+  <div id="Cabezera ">
+    <div id="Banner "><img src="Imagenes/IMG-20200707-WA0078.jpg" width="800" height="323" alt=""/></div>
+    <div id="Menu"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('inicio ','','Imagenes/inicio 2.jpg',1)"><img src="Imagenes/inicio.jpg" alt="" width="267" height="50" id="inicio "></a><a href="servicios.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('servicios','','Imagenes/servicios 2.jpg',1)"><img src="Imagenes/servicios.jpg" alt="" width="267" height="50" id="servicios"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contacto','','Imagenes/contacto 2.jpg',1)"><img src="Imagenes/contacto.jpg" alt="" width="267" height="50" id="contacto"></a></div>
+  </div>
+  <div id="Contenido"></div>
+</div>
+<div id="texto">
+  <p>Taller de enderezado pintura y soldadura Junior nace aproximadamente en el año 1995 por la necesidad de llevar alimento a casa de cada uno de las personas que conformaban esta micro empresa, cabe mencionar que al inicio no contaba con este nombre  y tambien estaba conformado por 3 hermanos los cuales dos de ellos emigraron del pais para buscar una mejor vida y queda solo el actual propietario. </p>
+  <p>En la actualidad el taller esta ubicado en El Virrey Macuelizo Santa Barbara y cuenta con un total de 7 empleados altamente capacitados para realizar las diferentes actividades que dia a dia se ejecutan en el taller.</p>
+  <p>&nbsp;</p>
+</div>
+<div id="Imagen "><img src="Imagenes/IMG-20200712-WA0018.jpg" width="790" height="478" alt=""/></div>
+</body>
+</html>

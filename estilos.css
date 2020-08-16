@@ -1,0 +1,39 @@
+@charset "utf-8";
+#todo {
+    width: 800px;
+    margin-left: auto;
+}
+body {
+}
+body {
+    width: 798px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Banner {
+    width: 800px;
+    height: 250px;
+}
+#contacto {
+    width: 265px;
+    height: 50px;
+}
+#texto {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Imagen {
+    width: 790px;
+    height: 478px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#todo {
+}
+#Texto servicios {
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
